@@ -5,15 +5,15 @@ const ThemeContext = createContext();
  
 // Tema Provider-komponenten som kommer att lagra och tillhandahålla temat
 export const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState('light'); // Låt oss börja med 'light' som standardtema
- 
+  const [darkTheme, setDarkTheme] = useState(false);
   const toggleTheme = () => {
     // Enkelt exempel: Växla mellan ljus och mörkt tema
-    setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
+    setDarkTheme(!darkTheme);
+    console.log('toggle theme')
   };
  
   return (
-<ThemeContext.Provider value={{ theme, toggleTheme }}>
+<ThemeContext.Provider value={{ darkTheme, toggleTheme }}>
       {children}
 </ThemeContext.Provider>
   );

@@ -31,6 +31,46 @@ const Header = styled.header`
                     color: #61dafb;
                 }
             }
+            .themeToggleCheckbox {
+                opacity: 0;
+                position: absolute;
+              }
+              
+              .themeToggleCheckbox-label {
+                background-color: white;
+                width: 50px;
+                height: 20px;
+                border-radius: 50px;
+                position: relative;
+                padding: 5px;
+                cursor: pointer;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              }
+              
+              .fa-moon {
+                color: lightblue;
+              }
+              
+              .fa-sun {
+                color: orange;
+              }
+              
+              .themeToggleCheckbox-label .ball {
+                background-color: black;
+                width: 22px;
+                height: 22px;
+                position: absolute;
+                left: 4px;
+                top: 4px;
+                border-radius: 50%;
+                transition: transform 0.2s linear;
+              }
+              
+              .themeToggleCheckbox:checked + .themeToggleCheckbox-label .ball {
+                transform: translateX(30px);
+              }
         }
     }
 `

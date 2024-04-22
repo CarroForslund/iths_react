@@ -4,7 +4,11 @@ const Main = styled.main`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 200px;
+    padding: 100px 200px;
+    &.dark {
+        background-color: #282c34;
+        color: white;
+    }
 `
 
 const S = {

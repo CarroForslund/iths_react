@@ -5,7 +5,7 @@ import Woof from './views/Woof/Woof'
 import Header from './components/layout/Header/Header'
 import Footer from './components/layout/Footer/Footer'
 import S from './App.styled'
-import { ThemeProvider } from './ThemeContext';
+import { ThemeProvider } from './context/ThemeContext';
 
 function App() {
 
