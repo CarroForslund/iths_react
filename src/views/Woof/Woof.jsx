@@ -1,7 +1,6 @@
 import React from 'react'
 import Fetch from '../../api/RandomDogPicture'
 import Main from '../../components/layout/Main/Main'
-import S from './Woof.styled'
 
 export default function Woof() {
   return (

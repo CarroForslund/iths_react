@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import S from './Header.styled'
+import Switch from '../../Switch/Switch'
 
 export default function Header() {
   return (
@@ -17,6 +18,7 @@ export default function Header() {
                 </li>
             </ul>
         </nav>
+        <Switch/>
     </S.Header>
   )
 }
