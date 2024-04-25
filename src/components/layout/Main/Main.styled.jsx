@@ -3,6 +3,7 @@ import styled from "styled-components"
 const Main = styled.main`
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     align-items: center;
     padding: 100px 200px;
     transition: ease-in-out all 0.1s;

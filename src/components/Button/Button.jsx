@@ -1,7 +1,8 @@
 import React from 'react'
+import S from './Button.styled'
 
 export default function Button( { text, type } ) {
   return (
-    <button type={type}>{text}</button>
+    <S.Button type={type}>{text}</S.Button>
   )
 }

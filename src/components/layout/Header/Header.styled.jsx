@@ -38,8 +38,8 @@ const Header = styled.header`
               
               .themeToggleCheckbox-label {
                 background-color: white;
-                width: 50px;
-                height: 20px;
+                width: 60px;
+                height: 30px;
                 border-radius: 50px;
                 position: relative;
                 padding: 5px;
