@@ -1,6 +1,6 @@
 # LABB 2 Create React App ITHS
 
-## För G
+## För VG
 - Sätta upp ett React projekt med create-react-app eller Vite
 - Minst 8 funktionskomponenter
 - Hämta data från extern API (för inspiration, se: [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)) Använd fetch, axios, react-query eller annat bibliotek.
